@@ -1,5 +1,8 @@
+---
+sidebar_position: 1
+---
 
-# This is a test page.
+# This is a test page
 
 # First Level
 
@@ -84,4 +87,4 @@ graph TD;
     C-->D;
 ```
 
-{/*  LocalWords:  sqrt */}
+{/*  LocalWords:  sqrt integrable */}

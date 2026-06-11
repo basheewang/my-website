@@ -12,8 +12,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
+    title: 'My Knowledge Base',
+    tagline: 'This website is crated with Docusaurus',
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -29,10 +29,11 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
+    organizationName: 'Bashee', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
 
     onBrokenLinks: 'throw',
+    onBrokenAnchors: 'ignore',
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
@@ -95,7 +96,7 @@ const config = {
 
     themes: [
         // ... Your other themes.
-        ['@docusaurus/theme-mermaid',({})],
+        ['@docusaurus/theme-mermaid', ({})],
         [
             require.resolve("@easyops-cn/docusaurus-search-local"),
             ({
