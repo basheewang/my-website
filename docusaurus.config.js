@@ -89,8 +89,13 @@ const config = {
         },
     ],
 
+    markdown: {
+        mermaid: true,
+    },
+
     themes: [
         // ... Your other themes.
+        ['@docusaurus/theme-mermaid',({})],
         [
             require.resolve("@easyops-cn/docusaurus-search-local"),
             ({
